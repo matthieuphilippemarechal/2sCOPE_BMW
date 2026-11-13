@@ -109,7 +109,7 @@ rename results12 rho_con_cupula2
 rename results13 francia_W
 rename results14 N
 sort N rho, stable
-save simulations_results_under_2sCOPE_hypothesis, replace
+save Results_under_2sCOPE_hypothesis, replace
 
 // export excel rho corr_z_u beta_sin_correccion gamma_sin_correccion beta_con_cupula1 
 // gamma_con_cupula1 rho_con_cupula1 beta_con_cupula2 gamma_con_cupula2 

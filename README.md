@@ -16,8 +16,8 @@ Monte-Carlo simulations/
     simulations_under_2sCOPE_hypothesis.do    data generated under the 2sCOPE assumptions
     simulations_under_BMW_hypothesis.do       data generated under the BMW assumptions
     corr_z_u_versus_rho.dta                   values of rho and corresponding corr(z,u) (Table 1)
-    simulations_results_segun_copula_1_new_change_sample_size.dta   output, 2sCOPE assumptions
-    simulations_results_segun_copula_2_new_change_sample_size.dta   output, BMW assumptions
+    Results_under_2sCOPE_hypothesis.dta       output, 2sCOPE assumptions
+    Results_under_BMW_hypothesis.dta          output, BMW assumptions
 Empirical_experiments/
     Original databases/      the five datasets as CSV files
     Cleaned databases/       the same datasets in Stata format, with harmonized variable names
@@ -37,8 +37,8 @@ The model is y = βx + γz + u, with β = 0.7, γ = 0.4, x ~ N(0, 9), and seven 
 
 | Do-file | Data-generating process | Output |
 |---|---|---|
-| `simulations_under_2sCOPE_hypothesis.do` | Gaussian copula between z and u (Section 4.1) | `simulations_results_segun_copula_1_new_change_sample_size.dta` |
-| `simulations_under_BMW_hypothesis.do` | u depends on a nonlinear transformation of the first-stage error (Section 4.2) | `simulations_results_segun_copula_2_new_change_sample_size.dta` |
+| `simulations_under_2sCOPE_hypothesis.do` | Gaussian copula between z and u (Section 4.1) | `Results_under_2sCOPE_hypothesis.dta` |
+| `simulations_under_BMW_hypothesis.do` | u depends on a nonlinear transformation of the first-stage error (Section 4.2) | `Results_under_BMW_hypothesis.dta` |
 
 Each output file has one row per replication. The variables are:
 

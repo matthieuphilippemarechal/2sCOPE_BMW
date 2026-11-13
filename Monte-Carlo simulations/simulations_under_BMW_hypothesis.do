@@ -100,4 +100,4 @@ rename results10 gamma_con_cupula2
 rename results11 rho_con_cupula2
 rename results12 N
 sort N rho, stable
-save simulations_results_under_BMW_hypothesis, replace
+save Results_under_BMW_hypothesis, replace
